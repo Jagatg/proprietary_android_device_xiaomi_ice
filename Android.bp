@@ -5,72 +5,6 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "GoogleNetworkStackResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "GoogleTetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "InProcessTetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "NetworkStackInProcessResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "NetworkStackResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "TetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 dex_import {
 	name: "com.fingerprints.extension",
 	owner: "xiaomi",
@@ -82,24 +16,6 @@ prebuilt_etc_xml {
 	name: "android.hardware.biometrics.fingerprint@2.1-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.boot@1.2",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.cas@1.2-service-lazy",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
