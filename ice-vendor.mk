@@ -1106,15 +1106,19 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension \
     vendor.silead.hardware.fingerprintext-V1.0-java \
     android.hardware.dumpstate@1.1-service.xiaomi \
+    android.hardware.health@2.1 \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
+    gnss-default \
+    gnss@2.1-service \
     lbs_hidl_service@1.0 \
     lights-mtk-default \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
     manifest_media_c2_V1_1_default \
     manifest_vendor.xiaomi.hardware.mtdservice \
+    power-default \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
     vendor.xiaomi.hardware.misys@3.0 \
