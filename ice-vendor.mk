@@ -487,7 +487,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/etc/qc_Global_2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qc_Global_2.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/qc_India.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qc_India.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/qc_India_2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qc_India_2.xml \
-    vendor/xiaomi/ice/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/rcv_pb.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv_pb.wav \
     vendor/xiaomi/ice/proprietary/vendor/etc/rsc/PRC/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/PRC/ro.prop \
     vendor/xiaomi/ice/proprietary/vendor/etc/rsc/PRC/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/PRC/rw.prop \
