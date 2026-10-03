@@ -1063,6 +1063,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 
 PRODUCT_PACKAGES += \
+    EngineerMode \
     ImsService \
     MtkGbaService \
     MtkTelephonyAssist \
