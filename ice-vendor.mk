@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
+    vendor/xiaomi/ice/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/ice/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
@@ -464,6 +465,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc \
+    vendor/xiaomi/ice/proprietary/vendor/etc/init/vibrator-mtk-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-lazy.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
@@ -547,6 +549,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/firmware/soc1_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_bt_1_1_hdr.bin \
     vendor/xiaomi/ice/proprietary/vendor/firmware/soc1_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1_1_hdr.bin \
     vendor/xiaomi/ice/proprietary/vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1_1_hdr.bin \
+    vendor/xiaomi/ice/proprietary/vendor/lib/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.power-service-mediatek.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/android.hidl.memory.block@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory.block@1.0.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
@@ -1094,6 +1097,8 @@ PRODUCT_PACKAGES += \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_1_default.xml \
     manifest_vendor.xiaomi.hardware.mtdservice.xml \
+    power-default.xml \
     vendor.xiaomi.hardware.misys@1.0.xml \
     vendor.xiaomi.hardware.misys@2.0.xml \
-    vendor.xiaomi.hardware.misys@3.0.xml
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vibrator-mtk-default.xml

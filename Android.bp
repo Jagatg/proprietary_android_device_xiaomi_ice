@@ -226,6 +226,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "power-default.xml",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.xiaomi.hardware.misys@1.0.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml",
@@ -247,6 +256,15 @@ prebuilt_etc_xml {
 	name: "vendor.xiaomi.hardware.misys@3.0.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vibrator-mtk-default.xml",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
