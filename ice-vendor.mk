@@ -1086,7 +1086,6 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension \
     vendor.silead.hardware.fingerprintext-V1.0-java \
     android.hardware.dumpstate@1.1-service.xiaomi.xml \
-    android.hardware.health@2.1.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.supplicant.xml \
