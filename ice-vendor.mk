@@ -785,7 +785,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmsetkey.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libksensor.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblogwrap_vendor.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblpcnr.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmemtrack_GL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemtrack_GL.so \
