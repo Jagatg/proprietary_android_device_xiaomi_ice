@@ -560,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/audio.primary.mt6761.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6761.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/audio.r_submix.mt6761.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6761.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
