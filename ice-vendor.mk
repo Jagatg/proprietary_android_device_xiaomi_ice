@@ -447,7 +447,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
-    vendor/xiaomi/ice/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/ice/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/ice/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
@@ -474,7 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/xiaomi/ice/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/xiaomi/ice/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
-    vendor/xiaomi/ice/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/ice/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/ice/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -542,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/audio.primary.mt6761.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6761.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/hw/audio.r_submix.mt6761.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6761.so \
@@ -591,8 +588,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/libIMGegl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIMGegl.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
@@ -617,7 +612,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
@@ -766,7 +760,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnl.so \
-    vendor/xiaomi/ice/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/xiaomi/ice/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
