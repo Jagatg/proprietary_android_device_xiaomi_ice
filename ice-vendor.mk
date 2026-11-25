@@ -488,6 +488,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/vendor/etc/touchpad/NoiseTest.csv:$(TARGET_COPY_OUT_VENDOR)/etc/touchpad/NoiseTest.csv \
     vendor/xiaomi/ice/proprietary/vendor/etc/touchpad/OpenTest.csv:$(TARGET_COPY_OUT_VENDOR)/etc/touchpad/OpenTest.csv \
     vendor/xiaomi/ice/proprietary/vendor/etc/touchpad/ShortTest.csv:$(TARGET_COPY_OUT_VENDOR)/etc/touchpad/ShortTest.csv \
+    vendor/xiaomi/ice/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/xiaomi/ice/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/ice/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
