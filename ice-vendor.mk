@@ -115,9 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.composer_ext@1.0.so \
-    vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/xiaomi/ice/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.10.so \
